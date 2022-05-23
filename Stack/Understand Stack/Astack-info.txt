@@ -1,0 +1,60 @@
+Mostly Array question are done with Stack
+And if the sorting thingmis to be done then it is used by doing the heap
+
+we some thime have dependent loop O(n^2) 
+for(int i=0;i<n:i++){
+    for(int j=0;k<i;j++)
+    In such case u can write better solution with Stack
+
+    Focus on the Concept
+    1st understand which pattern
+    then identify which variation
+
+
+//Initiation of the stack syantax
+stack<datatype> stackname;
+
+
+//Some inportant method in the stack
+stackname.push(value);
+stackname.pop()
+stackname.top()
+mystack.size()
+stackname.empty()   //return boolen
+stack1.swap(stack2); //swap 1 with 2
+
+//Mostly while loop used
+while (!st1.empty()) {
+		cout << st1.top() << " ";
+		st1.pop();
+	}
+
+
+
+
+1) Nearest/Next Greater element to left----|
+                                           |
+2) Nearest/Next Greater element to right---|
+                                           |---> Same Concept
+3) Nearest/Next Smaller element to right---|
+                                           |
+4) Nearest/Next Smaller element to left----|
+                    |
+                    |
+5) Stock Snap Problem
+6) Maximum Area of the Histogram
+                    |
+                    |
+7) Map Area of the Rectangle in Binary Matrix
+
+
+Good Comcept
+
+8) Rain Water Trapping
+9) Implementing the min stack  (Extra Space) (Without Extra Space)
+10)Implementing the Stack using Heap
+11)Celbrity Problem
+12)Longest valid Parenthesis
+13)Itetra  tive TOH
+
+                                        
