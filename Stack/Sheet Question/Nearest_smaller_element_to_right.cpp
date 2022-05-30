@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int arr[] = {1, 3, 4, 2};
+    int arr[] = {1, 3, 4, 2, 1};
     stack<int> st;
     vector<int> ans;
 
@@ -17,7 +17,7 @@ int main()
         ans.push_back(p);
         st.push(arr[i]);
     }
-
+    reverse(ans.begin(), ans.end());
     for (int i = 0; i < ans.size(); i++)
     {
         cout << ans[i] << " ";
