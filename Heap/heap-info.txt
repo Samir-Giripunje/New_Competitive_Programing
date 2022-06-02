@@ -1,0 +1,29 @@
+//Heap and its identification
+
+It is most of time dealing for the sorting purpose
+
+it can be mostly identified with the help of the 2 things
+1) Kvalue
+2) largest/or/ smallest
+
+For largest we have to make min heap 
+      For the smallest we have to make use of the max heap
+
+//--------------MIN heap declaration-----------//
+priority_queue<int,vector<int>,greater<int>> minh;
+
+
+//--------------MAX heap declaration-----------//
+priority_queue<int> maxh;
+
+Heap is use to reduce the sorting time to Nlog(N) to Nlog(k)
+
+
+
+
+
+
+
+
+
+//------------details about the heap------------//
