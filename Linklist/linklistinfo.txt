@@ -1,0 +1,39 @@
+linklist is linear data structure which has the nodes in the sequence
+
+  head    ---->data|address---->data|address----->data|address
+  pointer
+
+  Have to make stucture node for initiating it 
+  This structure call itself
+
+
+//making structure
+
+  struct Node {
+    int data;
+    Node *next;
+  }
+
+  Node *head;
+  Node *first=new Node();   //initiating 1st node of linklist;
+  Node *second=new Node();   //initiating 1st node of linklist;
+
+-----------initiating data-----------
+first->data=1;
+second->data=2;
+third->data=3;
+
+----------joining nodes--------------
+first->next=second;
+second->next=third;
+third->next=NULL;
+
+-----------assigning head;----------
+head=first;
+
+-----------applying loops----------
+while(head!=null)
+{
+  cout<<head->data<<endl;
+  head=head->next;
+}
